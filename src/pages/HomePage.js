@@ -48,7 +48,6 @@ const HomePage = () => {
   };
 
   const addTodo = () => {
-    alert(editedIndex);
     if (editedIndex === -1) {
       if (todo !== '') {
         setNotification({
